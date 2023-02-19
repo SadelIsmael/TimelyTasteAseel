@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".LogInFragment">
+
+    <ImageButton
+        android:id="@+id/ivGoToMainLogIn"
+        android:layout_width="48dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="212dp"
+        android:background="@color/background"
+        android:onClick="goToMainPage"
+        app:layout_constraintBottom_toTopOf="@+id/etPassLogIn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/btn_dialog"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/etEmailLogIn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="202dp"
+        android:layout_marginBottom="151dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Email"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogin"
+        app:layout_constraintEnd_toStartOf="@+id/ivGoToMainLogIn"
+        app:layout_constraintStart_toStartOf="@+id/etPassLogIn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etPassLogIn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="155dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivGoToMainLogIn" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="151dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="27dp"
+        android:backgroundTint="@color/buttons"
+        android:hint="Log In"
+        android:text="Log In"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmailLogIn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

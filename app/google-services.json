@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "748373495319",
+    "project_id": "timelytasteaseel",
+    "storage_bucket": "timelytasteaseel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748373495319:android:b198e1f154c31bc5d39652",
+        "android_client_info": {
+          "package_name": "com.example.timelytasteaseel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748373495319-49tehg8fth6t6dcgui2a9of1jeeh1bdj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuNgqRmBZ-9kKLYsxPj8M1XK7b8jnODGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748373495319-49tehg8fth6t6dcgui2a9of1jeeh1bdj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
